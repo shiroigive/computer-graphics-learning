@@ -12,6 +12,7 @@ dist/
 out/
 bin/
 obj/
+x64/
 *.o
 *.obj
 *.exe
