@@ -1,9 +1,7 @@
 # Computer Graphics Learning
-
 这个仓库用于记录我准备研究生阶段学习三维模型处理方向时的计算机图形学学习过程。当前重点是GAMES101-现代计算机图形学入门，后续会逐步补充几何处理、网格处理和论文复现相关内容。
 
 ## 当前目标
-
 - 复习图形学需要的线性代数基础
 - 学习 GAMES101 的核心内容
 - 用代码实现基础渲染和几何处理 demo
@@ -11,7 +9,6 @@
 - 结合 MeshLib 练习三维网格读取、保存和处理
 
 ## 学习路线
-
 ```text
 阶段 1：线性代数和变换
 向量、矩阵、齐次坐标、模型/视图/投影变换
@@ -30,7 +27,6 @@
 ```
 
 ## 目录结构
-
 ```text
 computer-graphics-learning/
 ├─ CMakeLists.txt     # VS2022/CMake 工程入口
@@ -42,7 +38,6 @@ computer-graphics-learning/
 ```
 
 ## VS2022 写代码
-
 使用 Visual Studio 2022 时，选择“打开本地文件夹”，打开：
 
 ```text
@@ -61,7 +56,6 @@ demos/meshlib-starter    # MeshLib，练习 STL 网格读取、统计和保存
 学习 GAMES101 前半部分时，建议先用 `cpp-starter` 写数学和渲染基础；进入几何表示、网格处理、三维模型处理时，再重点使用 `meshlib-starter`。
 
 ## MeshLib 配置
-
 `meshlib-starter` 默认引用本机路径：
 
 ```text
@@ -81,7 +75,6 @@ MESH_LIB_CONFIG=Release
 ```
 
 ## 记录规范
-
 每次学习尽量留下三个东西：
 
 - 一篇笔记：记录概念、公式和自己的理解
@@ -97,6 +90,5 @@ git commit -m "report: add week 01 summary"
 ```
 
 ## 说明
-
 这个仓库主要放学习笔记、独立 demo 和阶段总结。课程作业如果涉及评分或官方框架，优先放在私有仓库中管理，本仓库只保留公开合适的总结、截图和自己的理解。
 
