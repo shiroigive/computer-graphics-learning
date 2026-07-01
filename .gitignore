@@ -1,0 +1,37 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build outputs
+build/
+cmake-build-*/
+dist/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Python helper scripts
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
