@@ -18,6 +18,17 @@
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release"
       }
+    },
+    {
+      "name": "meshlib-release",
+      "displayName": "MeshLib Release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/cmake-build-vs2022-meshlib",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "MESH_LIB_ROOT": "D:/meshlib-build/install",
+        "MESH_LIB_CONFIG": "Release"
+      }
     }
   ],
   "buildPresets": [
@@ -28,6 +39,10 @@
     {
       "name": "vs2022-release",
       "configurePreset": "vs2022-release"
+    },
+    {
+      "name": "meshlib-release",
+      "configurePreset": "meshlib-release"
     }
   ]
 }

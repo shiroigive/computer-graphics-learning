@@ -23,6 +23,7 @@ obj/
 *.log
 *.tmp
 *.cache
+simple-triangle-copy.stl
 
 # Python helper scripts
 .venv/
