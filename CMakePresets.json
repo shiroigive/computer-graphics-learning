@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "vs2022-debug",
+      "displayName": "VS2022 Debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/cmake-build-vs2022",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "vs2022-release",
+      "displayName": "VS2022 Release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/cmake-build-vs2022-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "vs2022-debug",
+      "configurePreset": "vs2022-debug"
+    },
+    {
+      "name": "vs2022-release",
+      "configurePreset": "vs2022-release"
+    }
+  ]
+}
+

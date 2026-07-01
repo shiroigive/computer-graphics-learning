@@ -6,6 +6,7 @@
 
 ```text
 demos/
+├─ cpp-starter/
 ├─ transformation-viewer/
 ├─ triangle-rasterizer/
 └─ ray-sphere-intersection/
@@ -16,4 +17,3 @@ demos/
 - `README.md`：说明目标、运行方法和结果
 - `src/`：源码
 - `results/`：运行截图或输出图像
-

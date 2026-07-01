@@ -32,6 +32,7 @@
 
 ```text
 computer-graphics-learning/
+├─ CMakeLists.txt     # VS2022/CMake 工程入口
 ├─ notes/             # 课程笔记和公式推导
 ├─ demos/             # 自己实现的小实验和可视化 demo
 ├─ assets/            # 截图、渲染结果和示意图
@@ -58,4 +59,18 @@ git commit -m "report: add week 01 summary"
 ## 说明
 
 这个仓库主要放学习笔记、独立 demo 和阶段总结。课程作业如果涉及评分或官方框架，优先放在私有仓库中管理，本仓库只保留公开合适的总结、截图和自己的理解。
+
+## VS2022 写代码
+
+本仓库已经配置了 CMake 工程。使用 Visual Studio 2022 时，选择“打开本地文件夹”，打开：
+
+```text
+D:\code\computer-graphics-learning
+```
+
+VS2022 会自动识别根目录的 `CMakeLists.txt`。当前可运行的入门 demo 是：
+
+```text
+demos/cpp-starter
+```
 
